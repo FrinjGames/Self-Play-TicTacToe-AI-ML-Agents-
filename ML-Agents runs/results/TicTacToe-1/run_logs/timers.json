@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1689815829",
+        "python_version": "3.9.2 (tags/v3.9.2:1a79785, Feb 19 2021, 13:44:55) [MSC v.1928 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Noah\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\mlagents-learn C:\\Users\\Noah\\Documents\\GitHub\\Self-Play-TicTacToe-AI-ML-Agents-\\ML-Agents config/TicTacToe.yaml --run-id=TicTacToe-1",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.0.1+cu118",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1689815837"
+    },
+    "total": 7.747258800000001,
+    "count": 1,
+    "self": 0.004610900000001195,
+    "children": {
+        "run_training.setup": {
+            "total": 0.0738496999999998,
+            "count": 1,
+            "self": 0.0738496999999998
+        },
+        "TrainerController.start_learning": {
+            "total": 7.6687982,
+            "count": 1,
+            "self": 0.00011130000000125762,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 7.6686672,
+                    "count": 1,
+                    "self": 7.6686672
+                },
+                "TrainerController._save_models": {
+                    "total": 1.969999999928973e-05,
+                    "count": 1,
+                    "self": 1.969999999928973e-05
+                }
+            }
+        }
+    }
+}
